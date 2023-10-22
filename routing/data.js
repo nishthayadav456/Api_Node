@@ -1,4 +1,4 @@
-const arr=[
+const home=[
   {
     
          
@@ -1078,4 +1078,4 @@ const bollywood=[
 
 
 
-module.exports={bollywood,hollywood,Technology,fitness,food}
+module.exports={bollywood,hollywood,Technology,fitness,food,home}

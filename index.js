@@ -7,9 +7,9 @@ app.use(cors({
     origin:"*" //acess anywhere
 }))
 app.use("/api",categoryRouting);
-app.get('/',(req,res)=>{
-    res.send('ApI is running fine')
-});
+// app.get('/',(req,res)=>{
+//     res.send('ApI is running fine')
+// });
 // app.get('/api/:id',(req,res)=>{  //localhost:4002/api/5
 //     const id=req.params.id //this is said to be url params for fetching a particular data
 //     console.log(id)

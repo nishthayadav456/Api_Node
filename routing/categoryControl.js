@@ -1,4 +1,4 @@
-const {bollywood,hollywood,Technology,fitness, food,arr}=require("./data")
+const {bollywood,hollywood,Technology,fitness, food,home}=require("./data")
 const bollywoodControler=(req,res)=>{
 //     const id=req.params.id
 //     console.log(id)
@@ -20,7 +20,7 @@ const foodControler=(req,res)=>{
  return res.send(food)
  }
 const homeControler=(req,res)=>{
- return res.send(arr)
+ return res.send(home)
  }     
 
 module.exports={bollywoodControler,hollywoodControler,technologyControler,fitnessControler,foodControler,homeControler}
